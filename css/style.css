@@ -74,6 +74,7 @@ button{
     height: 25px;
     border: none;
     border-radius: 15px;
+  
 }
 
 .redCircle{
@@ -112,4 +113,8 @@ button{
 
 .violredBack{
     background-color: mediumvioletred;
+}
+
+.button:not(.navButton){
+    margin-left: 5px;
 }
