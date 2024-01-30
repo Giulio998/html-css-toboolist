@@ -34,7 +34,7 @@ body{
     background-color: white;
 }
 
-nav{
+.customPadding{
     padding: 15px 0 15px 50px;
 }
 
@@ -46,13 +46,70 @@ nav{
     color: white;
 }
 
-button{
-    width: 90px;
-    height: 25px;
-    border-radius: 12%;
-    border: none;
+.navButton{
+    border-radius: 5px;
+
 }
 
 .greyFont{
     color:grey
+}
+
+.greenCircle{
+    border-radius: 50%;
+    border: 1px solid rgb(0, 249, 37);;
+    width: 23px;
+    text-align: center;
+    color:rgb(0, 249, 37);
+    display: inline-block;
+    margin-right: 5px;
+}
+
+p{
+    display: inline-block;
+}
+
+button{
+    width: 90px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.redCircle{
+    border-radius: 50%;
+    border: 1px solid rgb(249, 0, 0);;
+    width: 23px;
+    text-align: center;
+    color:rgb(249, 0, 0);
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.violetBack{
+    background-color: blueviolet;
+}
+
+.greenBack{
+    background-color: greenyellow;
+}
+
+.orangeBack{
+    background-color: orange;
+}
+
+.customMargin{
+    margin-bottom: 15px;
+}
+
+.sectionMargin{
+    margin-bottom: 20px;
+}
+
+.darkgreenBack{
+    background-color: darkolivegreen;
+}
+
+.violredBack{
+    background-color: mediumvioletred;
 }
