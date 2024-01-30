@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+  
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.logo{
+    padding: 10px 0 10px 20px;
+    vertical-align: middle;
+}
+
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 45px;
+}
+
+body{
+    background-color:whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: white;
+}
+
+nav{
+    padding: 15px 0 15px 50px;
+}
+
+.blueBack{
+    background-color: rgb(111, 139, 250);
+}   
+
+.whiteFont{
+    color: white;
+}
+
+button{
+    width: 90px;
+    height: 25px;
+    border-radius: 12%;
+    border: none;
+}
+
+.greyFont{
+    color:grey
+}
